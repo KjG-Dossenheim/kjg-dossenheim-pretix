@@ -7,7 +7,6 @@ RUN pip3 install pretix-sepadebit
 RUN pip3 install pretix-servicefees
 RUN pip3 install pretix-sofort
 RUN pip3 install pretix-zugferd
-RUN pip3 install prtx-faq
 RUN pip3 install pretix-automated-orders
 RUN pip3 install pretix-public-registrations
 USER pretixuser
