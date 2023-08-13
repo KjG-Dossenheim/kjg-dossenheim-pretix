@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag kjg-dossenheim-pretix:$(date +%s)
+      run: docker build --pull --rm -f "Dockerfile" -t kjg-dossenheim-pretix:latest "."
