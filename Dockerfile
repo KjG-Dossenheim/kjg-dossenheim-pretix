@@ -1,4 +1,4 @@
-FROM pretix/standalone:stable
+FROM pretix/standalone:latest
 USER root
 RUN pip3 install pretix-passbook
 RUN pip3 install pretix-fontpack-free
