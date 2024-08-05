@@ -103,5 +103,6 @@ jobs:
         uses: actions/delete-package-versions@v5
         with:
           package-type: container
+          package-name: kjg-dossenheim-pretix
           min-versions-to-keep: 4
           num-old-versions-to-delete: 0
